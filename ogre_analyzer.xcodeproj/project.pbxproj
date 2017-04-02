@@ -1,0 +1,272 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		992EB0FB69E0F716EAA05D99 /* Mesh_obj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 992EB4D9B256AB3F9A03779A /* Mesh_obj.cpp */; };
+		992EB4642AAA8E584A60CB14 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 992EB6AE4FF105A38F674B20 /* main.cpp */; };
+		992EB7623183A7867BCB7957 /* QuadGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 992EB19A7CB281A302A4F25E /* QuadGrid.cpp */; };
+		992EB8CA4AF1F6876EA7366B /* Mesh_quads.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 992EBA908F73B3E0C25DF4B8 /* Mesh_quads.cpp */; };
+		992EBB460AE2F7F358337DD4 /* interface_main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 992EB3506D3B5A7F45B9258B /* interface_main.cpp */; };
+		992EBBA7550D6BFE8938D439 /* Mesh_optimize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 992EB232D3DAF90B7708D749 /* Mesh_optimize.cpp */; };
+		992EBBCEA70F47E9129A7A2E /* Mesh_serialize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 992EB4F906EEB35B2AE68F67 /* Mesh_serialize.cpp */; };
+		992EBFFC967DCA74EE881EFF /* MeshAnalyzer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 992EBD12514854DEC5B87BB0 /* MeshAnalyzer.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		992EBCD3929173BE614A8716 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		992EB09FF441CE035C9CAB05 /* helper_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = helper_types.h; sourceTree = "<group>"; };
+		992EB19A7CB281A302A4F25E /* QuadGrid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QuadGrid.cpp; sourceTree = "<group>"; };
+		992EB232D3DAF90B7708D749 /* Mesh_optimize.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mesh_optimize.cpp; sourceTree = "<group>"; };
+		992EB2393F5A04045F61133E /* Mesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mesh.h; sourceTree = "<group>"; };
+		992EB2AF55AAB05C7CE56225 /* MeshAnalyzer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeshAnalyzer.h; sourceTree = "<group>"; };
+		992EB3506D3B5A7F45B9258B /* interface_main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = interface_main.cpp; sourceTree = "<group>"; };
+		992EB4AA9DB2EB31B9748574 /* ogre_analyzer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ogre_analyzer; sourceTree = BUILT_PRODUCTS_DIR; };
+		992EB4D9B256AB3F9A03779A /* Mesh_obj.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mesh_obj.cpp; sourceTree = "<group>"; };
+		992EB4F906EEB35B2AE68F67 /* Mesh_serialize.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mesh_serialize.cpp; sourceTree = "<group>"; };
+		992EB6AE4FF105A38F674B20 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		992EB820E58FB626C1C364AA /* NullStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NullStream.h; sourceTree = "<group>"; };
+		992EB970A765047873538152 /* ogre_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ogre_types.h; sourceTree = "<group>"; };
+		992EB99FAD1B596919622FFD /* QuadGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuadGrid.h; sourceTree = "<group>"; };
+		992EBA287B78B00E54C53E33 /* Except.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Except.h; sourceTree = "<group>"; };
+		992EBA908F73B3E0C25DF4B8 /* Mesh_quads.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mesh_quads.cpp; sourceTree = "<group>"; };
+		992EBBC7E61FFB4A6F06C8E8 /* InputOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputOutput.h; sourceTree = "<group>"; };
+		992EBC699B12CEF222C776EA /* IMeshAnalyzer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMeshAnalyzer.h; sourceTree = "<group>"; };
+		992EBD12514854DEC5B87BB0 /* MeshAnalyzer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MeshAnalyzer.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		992EBCEE64AE302E944D5DDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		992EB09420CC255D5AA9929A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				992EB4AA9DB2EB31B9748574 /* ogre_analyzer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		992EB48CDD2B321130613E21 = {
+			isa = PBXGroup;
+			children = (
+				992EB09420CC255D5AA9929A /* Products */,
+				992EBA287B78B00E54C53E33 /* Except.h */,
+				992EB09FF441CE035C9CAB05 /* helper_types.h */,
+				992EBC699B12CEF222C776EA /* IMeshAnalyzer.h */,
+				992EBBC7E61FFB4A6F06C8E8 /* InputOutput.h */,
+				992EB3506D3B5A7F45B9258B /* interface_main.cpp */,
+				992EB6AE4FF105A38F674B20 /* main.cpp */,
+				992EB232D3DAF90B7708D749 /* Mesh_optimize.cpp */,
+				992EB4F906EEB35B2AE68F67 /* Mesh_serialize.cpp */,
+				992EB2393F5A04045F61133E /* Mesh.h */,
+				992EBD12514854DEC5B87BB0 /* MeshAnalyzer.cpp */,
+				992EB2AF55AAB05C7CE56225 /* MeshAnalyzer.h */,
+				992EB820E58FB626C1C364AA /* NullStream.h */,
+				992EB970A765047873538152 /* ogre_types.h */,
+				992EB4D9B256AB3F9A03779A /* Mesh_obj.cpp */,
+				992EB19A7CB281A302A4F25E /* QuadGrid.cpp */,
+				992EB99FAD1B596919622FFD /* QuadGrid.h */,
+				992EBA908F73B3E0C25DF4B8 /* Mesh_quads.cpp */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		992EB64B49308C2E433CF80E /* ogre_analyzer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 992EB1E7E0568447BF1C5F54 /* Build configuration list for PBXNativeTarget "ogre_analyzer" */;
+			buildPhases = (
+				992EB67E6DBCD94690700F2A /* Sources */,
+				992EBCEE64AE302E944D5DDE /* Frameworks */,
+				992EBCD3929173BE614A8716 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ogre_analyzer;
+			productName = ogre_analyzer;
+			productReference = 992EB4AA9DB2EB31B9748574 /* ogre_analyzer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		992EBCBDBDFA50ED508B9708 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Plarium;
+			};
+			buildConfigurationList = 992EB685132708D6C1D7FF0D /* Build configuration list for PBXProject "ogre_analyzer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 992EB48CDD2B321130613E21;
+			productRefGroup = 992EB09420CC255D5AA9929A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				992EB64B49308C2E433CF80E /* ogre_analyzer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		992EB67E6DBCD94690700F2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				992EBB460AE2F7F358337DD4 /* interface_main.cpp in Sources */,
+				992EB4642AAA8E584A60CB14 /* main.cpp in Sources */,
+				992EBBA7550D6BFE8938D439 /* Mesh_optimize.cpp in Sources */,
+				992EBBCEA70F47E9129A7A2E /* Mesh_serialize.cpp in Sources */,
+				992EBFFC967DCA74EE881EFF /* MeshAnalyzer.cpp in Sources */,
+				992EB0FB69E0F716EAA05D99 /* Mesh_obj.cpp in Sources */,
+				992EB7623183A7867BCB7957 /* QuadGrid.cpp in Sources */,
+				992EB8CA4AF1F6876EA7366B /* Mesh_quads.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		992EB103BA684EA69C75756F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		992EBC90D869141E47F62779 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1 MESH_TOOL $(inherited)";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		992EBDF06788D49B3DDAD704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		992EBE89C7869A969AB27423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "MESH_TOOL $(inherited)";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		992EB1E7E0568447BF1C5F54 /* Build configuration list for PBXNativeTarget "ogre_analyzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				992EBDF06788D49B3DDAD704 /* Debug */,
+				992EB103BA684EA69C75756F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		992EB685132708D6C1D7FF0D /* Build configuration list for PBXProject "ogre_analyzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				992EBC90D869141E47F62779 /* Debug */,
+				992EBE89C7869A969AB27423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 992EBCBDBDFA50ED508B9708 /* Project object */;
+}
